@@ -1,6 +1,6 @@
 [![CRAN](https://img.shields.io/cran/v/digitTests?color=yellow&label=CRAN&logo=r)](https://cran.r-project.org/package=digitTests)
 [![R_build_status](https://github.com/koenderks/digitTests/workflows/Build/badge.svg)](https://github.com/koenderks/digitTests/actions)
-[![Codecov](https://codecov.io/gh/koenderks/digitTests/branch/development/graph/badge.svg?token=ZoxIB8p8PW)](https://codecov.io/gh/koenderks/digitTests)
+[![Codecov](https://codecov.io/gh/koenderks/digitTests/branch/development/graph/badge.svg?token=ZoxIB8p8PW)](https://app.codecov.io/gh/koenderks/digitTests)
 [![Bugs](https://img.shields.io/github/issues/koenderks/digitTests/bug?label=Bugs&logo=github&logoColor=%23FFF&color=brightgreen)](https://github.com/koenderks/digitTests/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 [![Monthly](https://cranlogs.r-pkg.org/badges/digitTests?color=blue)](https://cranlogs.r-pkg.org)
 [![Total](https://cranlogs.r-pkg.org/badges/grand-total/digitTests?color=blue)](https://cranlogs.r-pkg.org)
@@ -11,7 +11,7 @@
 
 `digitTests` is an R package providing statistical tests for detecting irregular digit patterns. Such irregular digit patterns can be an indication of potential data manipulation or fraud. Therefore, the type of tests that the package provides can be useful in (but not limited to) the field of auditing to assess whether data have potentially been tampered with. However, please note that real data will never be perfect, and therefore caution should be used when relying on the statistical decision metrics that the package provides.
 
-The package is also implemented with a graphical user interface in the Audit module of [JASP](https://jasp-stats.org), a free and open-source statistical software program.
+The package is also implemented with a graphical user interface in the [Audit](https://github.com/jasp-stats/jaspAudit) module of [JASP](https://jasp-stats.org), a free and open-source statistical software program.
 
 ## Overview
 
