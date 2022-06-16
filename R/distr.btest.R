@@ -1,3 +1,18 @@
+# Copyright (C) 2021-2022 Koen Derks
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 #' Bayesian Test of Digits against a Reference Distribution
 #'
 #' @description This function extracts and performs a Bayesian test of the distribution of (leading) digits in a vector against a reference distribution. By default, the distribution of leading digits is checked against Benford's law.
@@ -9,7 +24,7 @@
 #' @param check          location of the digits to analyze. Can be \code{first}, \code{firsttwo}, or \code{last}.
 #' @param reference      which character string given the reference distribution for the digits, or a vector of probabilities for each digit. Can be \code{benford} for Benford's law, \code{uniform} for the uniform distribution. An error is given if any entry of \code{reference} is negative. Probabilities that do not sum to one are normalized.
 #' @param alpha          a numeric vector containing the prior parameters for the Dirichlet distribution on the digit categories.
-#' @param BF10           logical. Whether to whether to compute the Bayes factor in favor of the alternative hypothesis (BF10) or the null hypothesis (BF01).
+#' @param BF10           logical. Whether to compute the Bayes factor in favor of the alternative hypothesis (BF10) or the null hypothesis (BF01).
 #' @param log            logical. Whether to return the logarithm of the Bayes factor.
 #'
 #' @details Benford's law is defined as \eqn{p(d) = log10(1/d)}. The uniform distribution is defined as \eqn{p(d) = 1/d}.

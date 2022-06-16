@@ -1,8 +1,8 @@
+[![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://github.com/koenderks/jfa/tree/development/R)
 [![CRAN](https://img.shields.io/cran/v/digitTests?color=yellow&label=CRAN&logo=r)](https://cran.r-project.org/package=digitTests)
 [![R_build_status](https://github.com/koenderks/digitTests/workflows/Build/badge.svg)](https://github.com/koenderks/digitTests/actions)
 [![Codecov](https://codecov.io/gh/koenderks/digitTests/branch/development/graph/badge.svg?token=ZoxIB8p8PW)](https://app.codecov.io/gh/koenderks/digitTests)
 [![Bugs](https://img.shields.io/github/issues/koenderks/digitTests/bug?label=Bugs&logo=github&logoColor=%23FFF&color=brightgreen)](https://github.com/koenderks/digitTests/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
-[![Monthly](https://cranlogs.r-pkg.org/badges/digitTests?color=blue)](https://cranlogs.r-pkg.org)
 [![Total](https://cranlogs.r-pkg.org/badges/grand-total/digitTests?color=blue)](https://cranlogs.r-pkg.org)
 
 # digitTests: Tests for Detecting Irregular Digit Patterns
@@ -21,7 +21,6 @@ For complete documentation of the `digitTests` package download the [package man
 2. [Benchmarks](#2-benchmarks)
 3. [Intended usage](#3-intended-usage)
 4. [References](#4-references)
-5. [Package statistics](#5-package-statistics)
 
 ## 1. Installation
 
@@ -169,7 +168,3 @@ rv.test(sanitizer$value, check = 'lasttwo', B = 5000)
 - Kass, R. E., & Raftery, A. E. (1995). Bayes factors. *Journal of the American Statistical Association*, *90*(430), 773-795. - [View online](https://www.tandfonline.com/doi/abs/10.1080/01621459.1995.10476572)
 - Simohnsohn, U. (2019, May 25). *Number-Bunching: A New Tool for Forensic Data Analysis*. - [View online](https://datacolada.org/77)
 - Yo, F., Nelson, L., & Simonsohn, U. (2018, December 5). *In Press at Psychological Science: A New 'Nudge' Supported by Implausible Data*. - [View online](https://datacolada.org/74)
-
-## 5. Package statistics
-
-<img src='https://github.com/koenderks/digitTests/raw/development/man/figures/readme/downloads/downloads.svg' width='50%' /><img src='https://github.com/koenderks/digitTests/raw/development/man/figures/readme/worldmap/worldmap.svg' width='50%' />
